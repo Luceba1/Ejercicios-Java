@@ -1,0 +1,17 @@
+2025-05-26 12:32:08,085 [main] INFO  org.example.LogRotado - Mensaje número 4
+2025-05-26 12:32:18,087 [main] INFO  org.example.LogRotado - Mensaje número 5
+2025-05-26 12:32:28,105 [main] INFO  org.example.LogRotado - Mensaje número 6
+2025-05-26 12:32:38,120 [main] INFO  org.example.LogRotado - Mensaje número 7
+2025-05-26 12:32:48,122 [main] INFO  org.example.LogRotado - Mensaje número 8
+2025-05-26 12:32:58,137 [main] INFO  org.example.LogRotado - Mensaje número 9
+2025-05-26 12:37:28,393 [main] INFO  org.example.MiLogLevelApp - Este es un mensaje INFO.
+2025-05-26 12:37:28,397 [main] WARN  org.example.MiLogLevelApp - Este es un mensaje WARNING.
+2025-05-26 12:37:28,397 [main] ERROR org.example.MiLogLevelApp - Este es un mensaje ERROR.
+2025-05-26 12:38:29,462 [main] INFO  org.example.MiLogLevelApp - Este es un mensaje INFO.
+2025-05-26 12:38:29,465 [main] WARN  org.example.MiLogLevelApp - Este es un mensaje WARNING.
+2025-05-26 12:38:29,465 [main] ERROR org.example.MiLogLevelApp - Este es un mensaje ERROR.
+2025-05-26 12:45:59,413 [main] INFO  org.example.LogFormatos - Este es un mensaje con distintos formatos.
+2025-05-26 12:47:39,295 [main] INFO  org.example.LogFormatos - Este es un mensaje con distintos formatos.
+2025-05-26 12:56:17,251 [main] INFO  org.example.LogContextual - Inicio del proceso.
+2025-05-26 12:56:17,271 [main] WARN  org.example.LogContextual - Advertencia en ejecución.
+2025-05-26 12:56:17,271 [main] ERROR org.example.LogContextual - Error crítico.

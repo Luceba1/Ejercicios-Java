@@ -1,0 +1,5 @@
+2025-05-26 12:45:59,413 [main] INFO  LogFormatos - Este es un mensaje con distintos formatos.
+2025-05-26 12:47:39,295 [main] INFO  LogFormatos - Este es un mensaje con distintos formatos.
+2025-05-26 12:56:17,251 [main] INFO  LogContextual - Inicio del proceso.
+2025-05-26 12:56:17,271 [main] WARN  LogContextual - Advertencia en ejecución.
+2025-05-26 12:56:17,271 [main] ERROR LogContextual - Error crítico.

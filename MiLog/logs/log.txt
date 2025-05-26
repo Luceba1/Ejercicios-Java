@@ -1,0 +1,67 @@
+2025-05-26 11:48:32,858 [main] INFO  org.example.TestLogFile - Probando escritura en log.txt
+2025-05-26 11:58:46,643 [main] INFO  org.example.TestLogFile - Probando escritura en log.txt
+2025-05-26 11:59:05,202 [main] INFO  org.example.LogHTMLDemo - Este es un log en formato HTML.
+2025-05-26 12:07:39,648 [main] INFO  org.example.LogHTMLDemo - Este log se guarda como archivo HTML
+2025-05-26 12:07:39,648 [main] WARN  org.example.LogHTMLDemo - ¡Atención, este es un WARN en HTML!
+2025-05-26 12:07:39,648 [main] ERROR org.example.LogHTMLDemo - Esto es un ERROR en HTML.
+2025-05-26 12:15:55,465 [main] INFO  org.example.LogRotado - Mensaje número 1
+2025-05-26 12:16:05,474 [main] INFO  org.example.LogRotado - Mensaje número 2
+2025-05-26 12:16:15,505 [main] INFO  org.example.LogRotado - Mensaje número 3
+2025-05-26 12:16:25,522 [main] INFO  org.example.LogRotado - Mensaje número 4
+2025-05-26 12:16:35,524 [main] INFO  org.example.LogRotado - Mensaje número 5
+2025-05-26 12:16:45,538 [main] INFO  org.example.LogRotado - Mensaje número 6
+2025-05-26 12:16:55,552 [main] INFO  org.example.LogRotado - Mensaje número 7
+2025-05-26 12:17:05,567 [main] INFO  org.example.LogRotado - Mensaje número 8
+2025-05-26 12:17:15,573 [main] INFO  org.example.LogRotado - Mensaje número 9
+2025-05-26 12:17:25,588 [main] INFO  org.example.LogRotado - Mensaje número 10
+2025-05-26 12:17:35,608 [main] INFO  org.example.LogRotado - Mensaje número 11
+2025-05-26 12:17:45,623 [main] INFO  org.example.LogRotado - Mensaje número 12
+2025-05-26 12:17:55,627 [main] INFO  org.example.LogRotado - Mensaje número 13
+2025-05-26 12:18:05,629 [main] INFO  org.example.LogRotado - Mensaje número 14
+2025-05-26 12:18:15,639 [main] INFO  org.example.LogRotado - Mensaje número 15
+2025-05-26 12:18:25,640 [main] INFO  org.example.LogRotado - Mensaje número 16
+2025-05-26 12:18:35,656 [main] INFO  org.example.LogRotado - Mensaje número 17
+2025-05-26 12:18:45,659 [main] INFO  org.example.LogRotado - Mensaje número 18
+2025-05-26 12:25:01,814 [main] INFO  org.example.LogRotado - Mensaje número 1
+2025-05-26 12:25:11,835 [main] INFO  org.example.LogRotado - Mensaje número 2
+2025-05-26 12:25:21,839 [main] INFO  org.example.LogRotado - Mensaje número 3
+2025-05-26 12:25:31,843 [main] INFO  org.example.LogRotado - Mensaje número 4
+2025-05-26 12:25:41,872 [main] INFO  org.example.LogRotado - Mensaje número 5
+2025-05-26 12:25:51,874 [main] INFO  org.example.LogRotado - Mensaje número 6
+2025-05-26 12:26:01,880 [main] INFO  org.example.LogRotado - Mensaje número 7
+2025-05-26 12:26:11,883 [main] INFO  org.example.LogRotado - Mensaje número 8
+2025-05-26 12:26:21,890 [main] INFO  org.example.LogRotado - Mensaje número 9
+2025-05-26 12:26:31,894 [main] INFO  org.example.LogRotado - Mensaje número 10
+2025-05-26 12:26:41,902 [main] INFO  org.example.LogRotado - Mensaje número 11
+2025-05-26 12:26:51,915 [main] INFO  org.example.LogRotado - Mensaje número 12
+2025-05-26 12:27:01,923 [main] INFO  org.example.LogRotado - Mensaje número 13
+2025-05-26 12:27:11,939 [main] INFO  org.example.LogRotado - Mensaje número 14
+2025-05-26 12:27:21,943 [main] INFO  org.example.LogRotado - Mensaje número 15
+2025-05-26 12:27:31,972 [main] INFO  org.example.LogRotado - Mensaje número 16
+2025-05-26 12:27:41,983 [main] INFO  org.example.LogRotado - Mensaje número 17
+2025-05-26 12:27:51,987 [main] INFO  org.example.LogRotado - Mensaje número 18
+2025-05-26 12:28:01,989 [main] INFO  org.example.LogRotado - Mensaje número 19
+2025-05-26 12:28:12,003 [main] INFO  org.example.LogRotado - Mensaje número 20
+2025-05-26 12:28:22,006 [main] INFO  org.example.LogRotado - Mensaje número 21
+2025-05-26 12:28:32,022 [main] INFO  org.example.LogRotado - Mensaje número 22
+2025-05-26 12:28:42,038 [main] INFO  org.example.LogRotado - Mensaje número 23
+2025-05-26 12:31:38,047 [main] INFO  org.example.LogRotado - Mensaje número 1
+2025-05-26 12:31:48,054 [main] INFO  org.example.LogRotado - Mensaje número 2
+2025-05-26 12:31:58,072 [main] INFO  org.example.LogRotado - Mensaje número 3
+2025-05-26 12:32:08,085 [main] INFO  org.example.LogRotado - Mensaje número 4
+2025-05-26 12:32:18,087 [main] INFO  org.example.LogRotado - Mensaje número 5
+2025-05-26 12:32:28,105 [main] INFO  org.example.LogRotado - Mensaje número 6
+2025-05-26 12:32:38,120 [main] INFO  org.example.LogRotado - Mensaje número 7
+2025-05-26 12:32:48,122 [main] INFO  org.example.LogRotado - Mensaje número 8
+2025-05-26 12:32:58,137 [main] INFO  org.example.LogRotado - Mensaje número 9
+2025-05-26 12:37:28,393 [main] INFO  org.example.MiLogLevelApp - Este es un mensaje INFO.
+2025-05-26 12:37:28,397 [main] WARN  org.example.MiLogLevelApp - Este es un mensaje WARNING.
+2025-05-26 12:37:28,397 [main] ERROR org.example.MiLogLevelApp - Este es un mensaje ERROR.
+2025-05-26 12:38:29,462 [main] INFO  org.example.MiLogLevelApp - Este es un mensaje INFO.
+2025-05-26 12:38:29,465 [main] WARN  org.example.MiLogLevelApp - Este es un mensaje WARNING.
+2025-05-26 12:38:29,465 [main] ERROR org.example.MiLogLevelApp - Este es un mensaje ERROR.
+2025-05-26 12:45:59,413 [main] INFO  org.example.LogFormatos - Este es un mensaje con distintos formatos.
+2025-05-26 12:47:39,295 [main] INFO  org.example.LogFormatos - Este es un mensaje con distintos formatos.
+2025-05-26 12:56:17,251 [main] INFO  org.example.LogContextual - Inicio del proceso.
+2025-05-26 12:56:17,271 [main] WARN  org.example.LogContextual - Advertencia en ejecución.
+2025-05-26 12:56:17,271 [main] ERROR org.example.LogContextual - Error crítico.

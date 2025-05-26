@@ -1,0 +1,5 @@
+[INFO] org.example.LogFormatos - Este es un mensaje con distintos formatos.
+[INFO] org.example.LogFormatos - Este es un mensaje con distintos formatos.
+[INFO] org.example.LogContextual - Inicio del proceso.
+[WARN] org.example.LogContextual - Advertencia en ejecución.
+[ERROR] org.example.LogContextual - Error crítico.

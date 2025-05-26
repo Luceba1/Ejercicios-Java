@@ -1,0 +1,3 @@
+2025-05-26 12:56:17,251 [main] INFO  [lucas_123] [facturacion] Inicio del proceso.
+2025-05-26 12:56:17,271 [main] WARN  [lucas_123] [facturacion] Advertencia en ejecución.
+2025-05-26 12:56:17,271 [main] ERROR [lucas_123] [facturacion] Error crítico.

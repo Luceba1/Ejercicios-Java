@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+
+        <!-- Consola -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- Archivo log.txt -->
+        <File name="FileLogger" fileName="logs/log.txt">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+
+        <!-- Archivo HTML -->
+        <File name="HtmlFile" fileName="logs/html-log.html">
+            <HTMLLayout />
+        </File>
+
+        <!-- RollingFile rotado por cron -->
+        <RollingFile name="RollingFileLogger"
+                     fileName="logs/rotado.log"
+                     filePattern="logs/rotado-%d{yyyy-MM-dd-HH-mm}.log.gz">
+            <PatternLayout>
+                <Pattern>%d [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <CronTriggeringPolicy schedule="0 0/2 * * * ?" />
+            </Policies>
+        </RollingFile>
+
+        <!-- Formato 1: Solo mensaje -->
+        <File name="Formato1" fileName="logs/formato1.log">
+            <PatternLayout pattern="%m%n"/>
+        </File>
+
+        <!-- Formato 2: Fecha + mensaje -->
+        <File name="Formato2" fileName="logs/formato2.log">
+            <PatternLayout pattern="%d - %m%n"/>
+        </File>
+
+        <!-- Formato 3: Nivel + clase + mensaje -->
+        <File name="Formato3" fileName="logs/formato3.log">
+            <PatternLayout pattern="[%p] %c - %m%n"/>
+        </File>
+
+        <!-- Formato 4: Completo -->
+        <File name="Formato4" fileName="logs/formato4.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} [%t] %-5p %c{1} - %m%n"/>
+        </File>
+
+        <File name="ContextualLogger" fileName="logs/contextual.log">
+            <PatternLayout pattern="%d [%t] %-5level [%X{userId}] [%X{modulo}] %msg%n"/>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+            <AppenderRef ref="HtmlFile"/>
+            <AppenderRef ref="RollingFileLogger"/>
+            <AppenderRef ref="Formato1"/>
+            <AppenderRef ref="Formato2"/>
+            <AppenderRef ref="Formato3"/>
+            <AppenderRef ref="Formato4"/>
+            <AppenderRef ref="ContextualLogger"/>
+
+        </Root>
+    </Loggers>
+</Configuration>
